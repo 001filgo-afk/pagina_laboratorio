@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+}
+
+
+header {
+    background-color: #2f7d32;
+    color: white;
+    padding: 15px;
+}
+
+.encabezado {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.imagen-noticia {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    height: 180px;
+    border-radius: 6px;
+}
+
+
+.logo-contenido {
+    width: 120px;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 28px;
+}
+
+
+nav {
+    background-color: #222222;
+}
+
+
+.menu {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-color: #2f7d32;
+}
+
+
+.pagina {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+
+h2 {
+    color: #2f7d32;
+}
+
+h3 {
+    color: #2f7d32;
+}
+
+p {
+    line-height: 1.6;
+}
+
+
+/* tarjetas contenedoras */
+
+.tarjeta {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+/* tarjetas contenedoras de flexbox */
+
+.contenedor-flex {
+    display: flex;
+    gap: 20px;
+}
+
+
+.bloque {
+    background-color: #f4f4f4;
+    padding: 15px;
+    flex: 1;
+    border-radius: 8px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+a {
+    color: #2f7d32;
+}
+
+nav a {
+    color: white;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .encabezado {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contenedor-flex {
+        flex-direction: column;
+    }
+    body {
+        font-size: 12px;
+    }
+        h1 {
+        font-size: 20px;
+    }
+
+
+}
