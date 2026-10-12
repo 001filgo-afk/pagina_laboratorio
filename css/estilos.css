@@ -57,16 +57,16 @@ nav {
     margin: auto;
     display: flex;
     justify-content: center;
+
 }
 
 nav a {
-    color: white;
     text-decoration: none;
     padding: 15px 20px;
 }
 
 nav a:hover {
-    background-color: #2f7d32;
+    background-color: #1a3100;
 }
 
 
